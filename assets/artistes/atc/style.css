@@ -2,4 +2,15 @@ body
 {
     background-color:#012113;
     color :cadetblue;
+    cursor: url('/assets/artistes/atc/dague.png'), auto;	
+}
+
+h2
+{
+    text-decoration: underline;
+    color: rgb(122, 196, 199);
+}
+iframe
+{
+    border: none;
 }

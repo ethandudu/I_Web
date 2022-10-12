@@ -2,8 +2,15 @@ body
 {
     font-family: calibri;
 } 
+
 .center
 {
     text-align: center;
 }
 
+footer
+{
+    text-align: center;
+    font-size: 0.8em;
+    color: #999;
+}
