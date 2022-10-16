@@ -3,3 +3,8 @@ body
     background-color:#733a29;
     color :cadetblue;
 }
+
+iframe
+{
+    border: none;
+}
