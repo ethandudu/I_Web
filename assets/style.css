@@ -10,7 +10,21 @@ body
 
 footer
 {
+    position:absolute;
+    bottom: 0;
+    width:99%;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
     color: #999;
+}
+
+.row
+{
+    display: flex;
+}
+.col
+{
+    flex: 1; 
+    padding: 50px;
+    border: none;
 }
