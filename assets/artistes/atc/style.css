@@ -1,6 +1,6 @@
 body
 {
-    background-color:#012113;
+    background-color:#010321;
     color :cadetblue;
     cursor: url('/assets/artistes/atc/dague.png'), auto;	
 }
@@ -13,4 +13,37 @@ h2
 iframe
 {
     border: none;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: auto; 
+    min-height: auto;
+    filter:blur(5px);
+}
+
+.content {
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+@media screen and (max-width: 1280px) {
+    #myVideo {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        height: 100%;
+    }
+    .content {
+        font-size: large;
+    }
 }

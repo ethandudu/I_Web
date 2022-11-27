@@ -1,5 +1,5 @@
 iframe
 {
     border-color: aquamarine;
-    border-style: inset;
+    border: none;
 }
