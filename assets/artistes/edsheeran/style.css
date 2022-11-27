@@ -1,7 +1,6 @@
 body
 {
     background-color:#0db6e1;
-    color :#043d63;
 }
 iframe
 {
@@ -34,6 +33,7 @@ a {
         bottom: 0;
         width: auto;
         height: 100%;
+        border: none;
     }
     .content {
         font-size: large;
