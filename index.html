@@ -3,23 +3,48 @@
   <head>
     <meta charset="utf-8">
     <title>Projet musique</title>
-    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
   </head>
 
 
-  <body>  
-    <div class="center">
-      <img src="assets/icons8-music-library.gif" alt="logo du site" height="100">
+  <body>
+    <video autoplay muted loop id="myVideo">
+      <source src="assets/video.mp4" type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+    <div class="content">
+      <div class="center">
+        <a href="../"><img src="/assets/icons8-music-library-100.png" alt="logo du site" height="100"></a>
       <h1>Projet musique</h1>
-
-      <h2>Sommaire</h2>
-      <menu>
-        <li><a href="/artistes">Artistes</a></li>
-        <li><a href="/festival">Festivals</a></li>
-        <li><a href="/playlist">Playlists</a></li>
-        <li><a href="/apps">Apps</a></li>
-      </menu>
+        <h2>Sommaire</h2>
+        <div class="center">
+          <div class="row">
+            <div class="col">
+              <a href="/artistes/"><img src="/assets/icons8-music-100.png" alt="logo page artistes" height="100"><br>
+              Artistes</a>
+            </div>
+            <div class="col">
+              <a href="/playlists/"><img src="/assets/icons8-todo-list-100.png" alt="logo page playlists" height="100"><br>
+              Playlists</a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <a href="/apps/"><img src="/assets/icons8-audacity-100.png" alt="logo page apps" height="100"><br>
+              Apps</a>
+            </div>
+            <div class="col">
+              <a href="/festivals/"><img src="/assets/icons8-voice-100.png" alt="logo page festivals" height="100"><br>
+              Festivals</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        Projet Musique par Ethan Duault & Cyril Caparros pour I_Web. Icons by <a href="https://icons8.com/">Icons8</a>.
+      </footer>
     </div>
   </body>
 </html>

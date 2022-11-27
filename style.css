@@ -1,0 +1,27 @@
+body {
+    cursor: url('/assets/icons8-mouse-face-100.png') 5 5, auto;	
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    /* shadow on the text */
+    text-shadow: 2px 2px 4px #000000;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 2px 2px 4px #000000;
+}
