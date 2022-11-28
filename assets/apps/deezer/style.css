@@ -1,7 +1,7 @@
 body
 {
-    background-color:#0a3005;
-    color :#1ED760;
+    background-color:#ffffff;
+    color :#266e77;
 }
 iframe
 {
@@ -10,5 +10,34 @@ iframe
 
 a
 {
-    color:#1ED760;
+    color:#ffee00;
+}
+
+@media screen and (max-width: 1280px) {
+    #myVideo {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        height: 100%;
+    }
+    .content {
+        font-size: large;
+    }
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: auto; 
+    min-height: auto;
+    filter:blur(5px);
+}
+
+.content {
+    position: relative;
+    color: #ffffff;
+    width: 100%;
+    text-shadow: 2px 2px 4px #000000;
 }
