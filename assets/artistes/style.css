@@ -1,12 +1,8 @@
 footer {
-    color: black;
+
     text-shadow: none;
 }
 a {
     color: black;
     text-decoration: underline;
-}
-body {
-    /*text-shadow*/
-    text-shadow: 2px 2px 4px #000000;
 }
